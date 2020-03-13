@@ -6,7 +6,7 @@
 // https://wiki.cse.unsw.edu.au/cs9024cgi/19T2/Assignment1
 
 // boardADT.h: an interface definition for a boardADT
-typedef struct boardType *Board;
+typedef struct board *Board;
 
 // Returns new 'Board' type pointer with attributes initialized,
 // calls function to read string from stdin and converts the string
