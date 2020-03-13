@@ -11,7 +11,7 @@
 #include <math.h>
 #include "boardADT.h"
 
-struct board {
+struct boardType {
     int count;	// counter for the number of tile scanned (starts at 0)
     int size;	// size of the board (starts at 0)
     int disorder;// total disorder(starts at 0)
@@ -131,7 +131,7 @@ int * str_to_numbers(Board board) {
 
 // Initialize and return a "Board" type pointer
 Board initialize(void) {
-    Board board = malloc(sizeof(struct board));
+    Board board = malloc(sizeof(struct boardType));
     if (board == NULL) {
         fprintf(stderr, "ERROR: Not enough free memory to create "
 			"ADT of this board!\n");
