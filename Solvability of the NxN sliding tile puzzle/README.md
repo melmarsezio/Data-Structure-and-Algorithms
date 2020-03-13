@@ -1,5 +1,6 @@
 # Solvability of the NxN sliding tile puzzle
 ## Coursework assignment for Data Structure and Algorithms
+! [puzzle logo] (puzzle.png "puzzleLogo")
 ### Specification
 In regards to problem description, input format, output messages, details are explained in *`Assignment1.pdf`* and *`TuteSTPuzzle.pdf`*
 ### Instruction
@@ -24,7 +25,7 @@ In regards to problem description, input format, output messages, details are ex
 >+ `void error_msg_count(FILE *stream, char * str_1, int number, char * str_2)`: Print memory msg `ERROR: Unable to extend memory to store the {ith} input character of this board!` to desired stream.
 >
 >+ `int* str_to_numbers(Board board)`: Convert stdin reading strings into tile numbers and store in  
-&emsp;&emsp;`boardType->ptr`, it calls `error_msg_count()` to generate msg if not enough memory.
+&emsp;&emsp;`board.ptr/Board->ptr`, it calls `error_msg_count()` to generate msg if not enough memory.
 >
 >+ `Board initialize(void)`: Initialize boardType object and return it's pointer.
 >
@@ -38,7 +39,7 @@ In regards to problem description, input format, output messages, details are ex
 >
 >+ `void clean_board(Board board)`: `Board` memory warehousing, clean up used memory space.
 >
->+ `int compare_parity(Board board_1, Board board_2)`: Compare two `Board`s' parity(`disorder`) and clean up their memory by calling `clean_board`.
+>+ `int compare_parity(Board board_1, Board board_2)`: Compare two `Board`s' parity(`Board->disorder`) and clean up their memory by calling `clean_board`.
 ### Testfiles
 > all testcases are store under `Tests`, `bad[*].inp` represent bad inputs, `sol[*].inp` represent inputs with solutions, `unsol[*].inp` represent inputs without solutions.
 
