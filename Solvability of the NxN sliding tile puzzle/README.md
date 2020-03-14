@@ -21,7 +21,7 @@ In regards to problem description, input format, output messages, details are ex
 > &emsp;&emsp;solvable  
 ### `boardADT.c` description
 >#### ADT Structure:
->+ `struct boardType` includes:  
+>+ `struct boardType`: a `board` data type, it includes:  
 &emsp;&emsp;`count` counter for the number of tile scanned  
 &emsp;&emsp;`size` size of the board (expect to be `sqrt(count+1)`)  
 &emsp;&emsp;`disorder` total disorder of board object  
