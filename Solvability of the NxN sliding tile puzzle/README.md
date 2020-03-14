@@ -5,8 +5,9 @@
 In regards to problem description, input format, output messages, details are explained in *`Assignment1.pdf`* and *`TuteSTPuzzle.pdf`*
 ### Instruction
 > cmd run `make` to compile `puzzle.c` and `boardADT.c` into `puzzle`
->>  `./puzzle` to execute it or `./puzzle < Tests/[testfile].inp` to test the file with predefined testcases, or
-> 
+>>  `./puzzle` to execute it or `./puzzle < Tests/[testfile].inp` to test the file with predefined testcases
+>
+> or
 >> cmd run `chmod +x ./test.sh` to give permission to the shellscript, and
 >>
 >> cmd run `./test.sh [1|2|3|4]` to automatically run sets of testfiles
@@ -20,7 +21,7 @@ In regards to problem description, input format, output messages, details are ex
 > &emsp;&emsp;solvable  
 ### `boardADT.c` description
 >#### ADT Structure:
->+ `boardType` includes:  
+>+ `struct boardType` includes:  
 &emsp;&emsp;`count` counter for the number of tile scanned  
 &emsp;&emsp;`size` size of the board (expect to be `sqrt(count+1)`)  
 &emsp;&emsp;`disorder` total disorder of board object  
