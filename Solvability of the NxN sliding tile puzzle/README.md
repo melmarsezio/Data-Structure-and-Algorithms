@@ -18,7 +18,7 @@ In regards to problem description, input format, output messages, details are ex
 > &emsp;&emsp;start: 2 11 6 16 23 4 15 24 14 3 13 1 b 5 8 22 9 12 20 10 7 21 19 17 18  
 > &emsp;&emsp;goal: 23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18  
 > &emsp;&emsp;solvable  
-### BoardADT description
+### `boardADT.c` description
 >#### ADT Structure:
 >+ `boardType` includes:  
 &emsp;&emsp;`count` counter for the number of tile scanned  
