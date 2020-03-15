@@ -2,7 +2,7 @@
 ## Coursework assignment for Data Structure and Algorithms
 ![](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/puzzle2.png)
 ### Specification
-In regards to problem description, input format, output messages, details are explained in *`Assignment1.pdf`* and *`TuteSTPuzzle.pdf`*
+In regards to problem description, input format, output messages, details are explained in [*`Assignment1.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/Assignment1.pdf) and [*`TuteSTPuzzle.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/TuteSTPuzzle.pdf)
 ### Instruction
 > cmd run `make` to compile `puzzle.c` and `boardADT.c` into `puzzle`
 >>  `./puzzle` to execute it or `./puzzle < Tests/[testfile].inp` to test the file with predefined testcases
@@ -12,13 +12,18 @@ In regards to problem description, input format, output messages, details are ex
 >>
 >> cmd run `./test.sh [1|2|3|4]` to automatically run sets of testfiles
 >
-> Sample input:  
-> &emsp;&emsp;2 11 6 16 23 4 15 24 14 3 13 1 b 5 8 22 9 12 20 10 7 21 19 17 18  
-> &emsp;&emsp;23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18  
-> Expected ouput:  
-> &emsp;&emsp;start: 2 11 6 16 23 4 15 24 14 3 13 1 b 5 8 22 9 12 20 10 7 21 19 17 18  
-> &emsp;&emsp;goal: 23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18  
-> &emsp;&emsp;solvable  
+
+> Sample input:
+
+>       2 11 6 16 23 4 15 24 14 3 13 1 b 5 8 22 9 12 20 10 7 21 19 17 18
+>       23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18
+
+> Expected ouput:
+
+>       start: 2 11 6 16 23 4 15 24 14 3 13 1 b 5 8 22 9 12 20 10 7 21 19 17 18
+>       goal: 23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18
+>       solvable
+
 ### `boardADT.c` description
 >#### ADT Structure:
 >+ `struct boardType`: a `board` data type, it includes:  
