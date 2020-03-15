@@ -58,27 +58,27 @@ In regards to problem description, input format, output messages, details are ex
 >+ `Graph`: pointer to the `graphRep` type
 >+ `Edge`: data type represents an edge between `Edge.v` and `Edge.w`
 >#### Functions:
->+ `Graph newGraph(int numVertices)`
->+ `Graph freeGraph(Graph g)`
->+ `void showGraph(Graph g)`
->+ `Edge newEdge(Vertex v, Vertex w)`
->+ `void showEdge(Edge e)`
->+ `int isEdge(Edge e, Graph g)`
->+ `void insertEdge(Edge e, Graph g)`
->+ `void removeEdge(Edge e, Graph g)`
+>+ `Graph newGraph(int numVertices)`: return a `Graph` pointer by specifying how many vertexes in that `graphRep`
+>+ `Graph freeGraph(Graph g)`: free up all space used by `Graph`
+>+ `void showGraph(Graph g)`: print `Graph` with all edges `<v w>`
+>+ `Edge newEdge(Vertex v, Vertex w)`: generate new `Edge` data type
+>+ `void showEdge(Edge e)`: print `Edge` with `<v w>`
+>+ `int isEdge(Edge e, Graph g)`: determine whether `e` is an `Edge` in `g`
+>+ `void insertEdge(Edge e, Graph g)`: insert `Edge e` into `Graph g`
+>+ `void removeEdge(Edge e, Graph g)`: remove `Edge e` from `Graph g`
 
 ### `owl.c` description
 >#### Data Structure:
 >+ `struct owlRep`:
 >+ `Owl_type`: pointer to the `owlRep` type
 >#### Functions:
->+ `bool differByOne(char * word1, char * word2)`
->+ `bool changeLetter(char * word1, char * word2)`
->+ `bool addLetter(char * word1, char * word2)`
->+ `bool removeLetter(char * word1, char * word2)`
->+ `Owl_type dfs (Graph g, Vertex v, int numV)`
+>+ `bool differByOne(char * word1, char * word2)`: check if `word1` and `word2` differ by one letter, by calling `changeLetter()`, `addLetter()` or `removeLetter()`
+>+ `bool changeLetter(char * word1, char * word2)`: check if `word2` can be obtained by replacing one letter in `word1`
+>+ `bool addLetter(char * word1, char * word2)`: check if `word2` can be obtained by adding one letter in `word1`
+>+ `bool removeLetter(char * word1, char * word2)`: check if `word2` can be obtained by removing one letter in `word1`
+>+ `Owl_type dfs (Graph g, Vertex v, int numV)`: initializer and wrapper of the `dfsR()` which recursively search into depth. It returns a pointer to `owlRep` which have information of all longest ordered word ladder
 >+ `void dfsR (Graph g, Vertex v, int numV, int backtrack[], int *visited, int cur,
-            Owl_type owls, int *nodeCost)`
+            Owl_type owls, int *nodeCost)`: recursive function which using depth first search strategy and return length of current path
 
 ### Testfiles
 > all testcases are stored under `tests`, `case-[*].in` represent inputs and `case-[*].exp` represent corresponding expected outputs.
