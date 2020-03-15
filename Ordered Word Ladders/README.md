@@ -12,27 +12,30 @@ In regards to problem description, input format, output messages, details are ex
 >>
 >> cmd run `./autotest.sh` to automatically run all testfiles
 >
-> Sample input:  
-> &emsp;&emsp;an at in it on  
-> Expected ouput:  
-> &emsp;&emsp;Dictionary  
-> &emsp;&emsp;0: an  
-> &emsp;&emsp;1: at  
-> &emsp;&emsp;2: in  
-> &emsp;&emsp;3: it  
-> &emsp;&emsp;4: on  
-> &emsp;&emsp;Ordered Word Ladder Graph  
-> &emsp;&emsp;V=5, E=6  
-> &emsp;&emsp;<0 1> <0 2> <0 4>  
-> &emsp;&emsp;<1 0> <1 3>  
-> &emsp;&emsp;<2 0> <2 3> <2 4>  
-> &emsp;&emsp;<3 1> <3 2>  
-> &emsp;&emsp;<4 0> <4 2>  
-> &emsp;&emsp;Longest ladder length: 3  
-> &emsp;&emsp;Longest ladders:  
-> &emsp;&emsp; 1: an -> at -> it  
-> &emsp;&emsp; 2: an -> in -> it  
-> &emsp;&emsp; 3: an -> in -> on  
+> Sample input:
+
+>       an at in it on
+
+> Expected ouput:
+
+>       Dictionary  
+>       0: an  
+>       1: at  
+>       2: in  
+>       3: it  
+>       4: on  
+>       Ordered Word Ladder Graph  
+>       V=5, E=6  
+>       <0 1> <0 2> <0 4>  
+>       <1 0> <1 3>  
+>       <2 0> <2 3> <2 4>  
+>       <3 1> <3 2>  
+>       <4 0> <4 2>  
+>       Longest ladder length: 3  
+>       Longest ladders:  
+>        1: an -> at -> it  
+>        2: an -> in -> it  
+>        3: an -> in -> on  
 
 ### `Quack.c` description
 >#### Data Structure:
