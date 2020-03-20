@@ -4,7 +4,7 @@
 ## Specification
 In regards to problem description, input format, output messages, details are explained in [*`Assignment2.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/Assignment2.pdf)
 ## Instruction
-> cmd run `make` to compile `owl.c`, `GraphAM.c` and `Quack.c` into `owl`
+> cmd run `make` to compile [`owl.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/owl.c), [`GraphAM.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/GraphAM.c) and [`Quack.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/Quack.c) into `owl`
 >>  `./owl` to execute it or `./owl < tests/case-[#test].in` to test the file with predefined testcases
 >
 > or
@@ -37,7 +37,7 @@ In regards to problem description, input format, output messages, details are ex
 >        2: an -> in -> it  
 >        3: an -> in -> on  
 
-## `Quack.c` description
+## [`Quack.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/Quack.c) description
 >#### Data Structure:
 >+ `struct node`: a Quack data type (combination of stack and queue), it includes:  
 &emsp;&emsp;`array` contains all numbers in the `Quack` (combination of `queue` and `stack`)  
@@ -52,7 +52,7 @@ In regards to problem description, input format, output messages, details are ex
 >+ `Quack destroyQuack(Quack qs)`: clean up memory space used by `Quack`
 >+ `int isEmptyQuack(Quack qs)`: tell if `qs` is empty or not
 >+ `void showQuack(Quack qs)`: print out all elements in the `Quack`
-## `GraphAM.c` description
+## [`GraphAM.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/GraphAM.c) description
 >#### Data Structure:
 >+ `struct graphRep`: a graph data type represented by Adjacency Matrix, it includes:  
 &emsp;&emsp;`nV`: records number of vertexes in `graphRep`  
@@ -70,7 +70,7 @@ In regards to problem description, input format, output messages, details are ex
 >+ `void insertEdge(Edge e, Graph g)`: insert `Edge e` into `Graph g`
 >+ `void removeEdge(Edge e, Graph g)`: remove `Edge e` from `Graph g`
 
-## `owl.c` description
+## [`owl.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/owl.c) description
 >#### Data Structure:
 >+ `struct owlRep`:
 >+ `Owl_type`: pointer to the `owlRep` type
