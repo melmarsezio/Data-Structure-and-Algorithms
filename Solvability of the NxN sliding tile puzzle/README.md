@@ -4,7 +4,7 @@
 ## Specification
 In regards to problem description, input format, output messages, details are explained in [*`Assignment1.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/Assignment1.pdf) and [*`TuteSTPuzzle.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/TuteSTPuzzle.pdf)
 ## Instruction
-> cmd run `make` to compile `puzzle.c` and `boardADT.c` into `puzzle`
+> cmd run `make` to compile [`puzzle.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/puzzle.c) and [`boardADT.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/boardADT.c) into `puzzle`
 >>  `./puzzle` to execute it or `./puzzle < Tests/[testfile].inp` to test the file with predefined testcases
 >
 > or
@@ -24,7 +24,7 @@ In regards to problem description, input format, output messages, details are ex
 >       goal: 23 8 17 5 2 3 14 7 10 21 15 6 11 b 22 24 13 1 16 12 20 19 9 4 18
 >       solvable
 
-## `boardADT.c` description
+## [`boardADT.c`](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/boardADT.c) description
 >#### ADT Structure:
 >+ `struct boardType`: a `board` data type, it includes:  
 &emsp;&emsp;`count` counter for the number of tile scanned  
