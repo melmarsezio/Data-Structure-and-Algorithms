@@ -1,6 +1,6 @@
 # Solvability of the NxN sliding tile puzzle
 #### Coursework assignment for Data Structure and Algorithms
-![](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/puzzle2.png)
+![puzzle2.png](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/puzzle2.png)
 ## Specification
 In regards to problem description, input format, output messages, details are explained in [*`Assignment1.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/Assignment1.pdf) and [*`TuteSTPuzzle.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Solvability%20of%20the%20NxN%20sliding%20tile%20puzzle/TuteSTPuzzle.pdf)
 ## Instruction
