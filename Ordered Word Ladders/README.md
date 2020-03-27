@@ -1,6 +1,6 @@
 # Ordered Word Ladders
 #### Coursework assignment for Data Structure and Algorithms
-![](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/owls.jpg)
+![owls.jpg](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/owls.jpg)
 ## Specification
 In regards to problem description, input format, output messages, details are explained in [*`Assignment2.pdf`*](https://github.com/melmarsezio/Data-Structure-and-Algorithms/blob/master/Ordered%20Word%20Ladders/Assignment2.pdf)
 ## Instruction
