@@ -23,5 +23,6 @@ All projects and assignments of Course COMP9024 Data Structure and Algorithms wi
 ### Topics learned extracurricular
 + Graph: Warshall's Algorithm/ Floyd's Algorithm/ Edmonds-Karp(Max Flow)
 + Tree: AVL Tree/ Black-red Tree
++ Binomial Heap
 + String matching: Naive Pattern Matching/ Boyer-Moore Algorithm/ Knuth-Morris-Pratt Algorithm/ Huffman’s Algorithm
 + Randomised Algorithms: Quicksort (Unrandomized/ Randomized)/ Karger’s Algorithm
